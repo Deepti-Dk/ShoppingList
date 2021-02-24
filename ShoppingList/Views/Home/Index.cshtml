@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>My Grocery List <img src="~/Images/grocery.jpg" alt="grocery bag" width="250" height="300" /></h1>
+
+    <strong>@Html.ActionLink("Click here to start adding groceries", "Index", "Lists", new { area = "" }, new { @class = "navbar-brand" }) </strong>  
+</div>
